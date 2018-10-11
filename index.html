@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/site.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-light">
+    <header class="container">
+      <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md">
+        <h1 class="navbar-brand">Demo</h1>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="navbar-collapse collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Notifications <span class="badge badge-light">3</span></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Notification 1</a>
+                <a class="dropdown-item" href="#">Notification 2</a>
+                <a class="dropdown-item" href="#">Notification 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Privacy</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+        
+      <div class="mt-5">&nbsp;</div>
+    </header>
+
+    <section class="container bg-white rounded shadow p-0">
+      <nav aria-label="breadcrumb" class="d-none d-md-block">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+  
+      <div class="container pb-4">
+        <h2 class="text-center">Contact Us</h2>
+  
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <p class="text-justify">Removed the following mixins: animation, animation-delay, animation-direction, animation-duration, animation-fill-mode, animation-iteration-count, animation-name, animation-timing-function, backface-visibility, box-sizing, content-columns, hyphens, opacity, perspective, perspective-origin, rotate, rotateX, rotateY, scale, scaleX, scaleY, skew, transform-origin, transition-delay, transition-duration, transition-property, transition-timing-function, transition-transform, translate, translate3d, user-select</p>
+          </div>
+        </div>
+        
+        <hr class="mb-4">
+
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="card card-body bg-light">
+              <form method="post">
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input name="Name" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input name="Email" type="email" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="Subject">Subject</label>
+                  <input name="Subject" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="Description">Description</label>
+                  <textarea name="Message" rows="4" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top" />
+                </div>
+              </form>     
+            </div>
+          </div>
+        </div>     
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="text-center my-3">Copyright 2018</div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
